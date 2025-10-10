@@ -88,7 +88,7 @@ body {
 .content--wide {
   padding: 2rem;
   grid-template-columns: 1fr;
-  max-width: 80ch;
+  max-width: 70ch;
   > * {
     border-right: 0px !important;
     padding: 0;
