@@ -34,7 +34,7 @@ Full stack web developer with 20 years’ experience at ESI, a leading UK constr
 - Integrated Endeca enterprise search into ColdFusion-driven websites.
 - Transformed and pushed data to support faceted navigation and search optimization.
 
-#### Junior Developer | ESI | 2006–2007
+#### Junior Developer - ESI (2006–2007)
 
 - Developed and maintained internal applications in the proprietary 4D database system.
 - Supported team in system troubleshooting and small-scale application development.
