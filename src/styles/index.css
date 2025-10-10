@@ -5,12 +5,14 @@
 @import "buttons.css";
 @import "content.css";
 
-.bulletted {
-  position: relative;
-  &::before {
-    content: "\2B24";
-    position: absolute;
-    left: calc(-2rem - 10px);
-    color: var(--border-color);
-  }
+html {
+  scroll-behavior: smooth;
+}
+[data-icon] {
+  font-size: 3rem;
+  color: #333;
+}
+.flex-row {
+  display: flex;
+  gap: 1rem;
 }
