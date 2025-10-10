@@ -16,3 +16,9 @@ html {
   display: flex;
   gap: 1rem;
 }
+.flex-row--narrow {
+  gap: 0.5rem;
+}
+.flex-row--no-gap {
+  gap: 0px;
+}
