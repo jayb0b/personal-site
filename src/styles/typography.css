@@ -55,3 +55,11 @@ h6 {
     left: calc(-2rem - 10px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .bulletted {
+    &::after {
+      display: none;
+    }
+  }
+}

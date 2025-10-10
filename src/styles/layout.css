@@ -69,6 +69,8 @@ body {
 .content__header {
   justify-self: right;
   line-height: 1rem;
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
 }
 
 .content__header--left {
@@ -94,4 +96,41 @@ body {
     padding: 0;
   }
   border-left: 1.5px dashed var(--border-color);
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    display: block;
+    & > * {
+      height: inherit;
+      padding: 0px !important;
+    }
+  }
+
+  .content {
+    display: block;
+    > * {
+      border-width: 0px !important;
+      border-style: none !important;
+      padding: 1rem 0 2rem 0 !important;
+    }
+  }
+  .content--wide {
+    border-width: 0px !important;
+    padding: 0px;
+    border-style: none !important;
+  }
+  .content__header {
+    justify-self: left;
+  }
+
+  .width-switcher {
+    border-width: 0px !important;
+    border-style: none !important;
+
+    & > * {
+      border-width: 0px !important;
+      border-style: none !important;
+    }
+  }
 }

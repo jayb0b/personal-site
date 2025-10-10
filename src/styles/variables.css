@@ -34,4 +34,6 @@
 
   --font-size-h6: 1rem; /* 16px */
   --line-height-h6: 1.5;
+
+  --mobile-width: 768px;
 }
