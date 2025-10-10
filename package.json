@@ -1,7 +1,8 @@
 {
-  "name": "johnbob",
+  "name": "john-smith-website",
   "type": "module",
   "version": "0.0.1",
+   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -19,3 +20,4 @@
     "tailwindcss": "^4.1.12"
   }
 }
+ 
