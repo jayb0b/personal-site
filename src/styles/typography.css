@@ -37,3 +37,6 @@ h6 {
   font-size: var(--font-size-h6);
   line-height: var(--line-height-h6);
 }
+.small {
+  font-size: 0.875rem;
+}

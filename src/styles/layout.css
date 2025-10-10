@@ -80,7 +80,11 @@ body {
 .content--reversed {
   grid-template-areas: "right left";
 }
-
+.content--footer {
+  & > * {
+    padding: 2rem 0 0 0;
+  }
+}
 .content--wide {
   padding: 2rem;
   grid-template-columns: 1fr;
