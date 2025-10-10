@@ -1,0 +1,16 @@
+@import "./utils/reset.css";
+@import "variables.css";
+@import "typography.css";
+@import "layout.css";
+@import "buttons.css";
+@import "content.css";
+
+.bulletted {
+  position: relative;
+  &::before {
+    content: "\2B24";
+    position: absolute;
+    left: calc(-2rem - 10px);
+    color: var(--border-color);
+  }
+}

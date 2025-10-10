@@ -1,0 +1,132 @@
+body {
+  background-color: var(--background-color);
+  color: #333;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.width-switcher {
+  height: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  > *:first-child {
+    border-top: 1.5px dashed var(--border-color);
+    border-left: 1.5px dashed var(--border-color);
+    height: 10rem;
+  }
+}
+.container {
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  & > * {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  & > *:nth-child(1) {
+    border-right: 1.5px dashed var(--border-color);
+    padding-right: 2rem;
+  }
+  & > *:nth-child(2) {
+    padding-left: 2rem;
+  }
+}
+.hero__header {
+  font-size: 8rem;
+}
+.hero__text {
+  font-size: 1.5rem;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  & > * {
+    padding: 8rem 0;
+    display: grid;
+    gap: 3rem;
+  }
+  & > *:nth-child(1) {
+    border-right: 1.5px dashed var(--border-color);
+    padding-right: 2rem;
+  }
+  & > *:nth-child(2) {
+    padding-left: 2rem;
+  }
+}
+.content__header {
+  justify-self: right;
+  line-height: 1rem;
+}
+
+.content__header--left {
+  justify-self: left;
+}
+.content__image {
+  justify-self: center;
+}
+.content--reversed {
+  grid-template-areas: "right left";
+}
+
+.content--wide {
+  padding: 2rem;
+  grid-template-columns: 1fr;
+  width: 80ch;
+  > * {
+    border-right: 0px !important;
+    padding: 0;
+  }
+  border-left: 1.5px dashed var(--border-color);
+}
+
+/* :root {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+}
+.content {
+  display: grid;
+  max-width: 60rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.layout {
+  display: grid;
+}
+
+.layout--one-two {
+  grid-template-columns: 1fr 2fr;
+}
+
+.section {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  place-content: start;
+}
+
+.section--light {
+  background-color: white;
+  color: var(--gray-700);
+}
+.section--left-border {
+  border-left: 1px solid var(--gray-300);
+}
+
+.content--one-two {
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+.content--divider {
+  > *:first-child {
+    border-right: 1px dotted var(--base-color);
+  }
+  border-bottom: 1px dotted var(--base-color);
+} */
