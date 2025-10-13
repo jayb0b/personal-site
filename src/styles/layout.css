@@ -1,5 +1,5 @@
 body {
-  background-color: var(--background-color);
+  background: url("/background.png");
   color: #333;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -113,6 +113,7 @@ body {
       border-width: 0px !important;
       border-style: none !important;
       padding: 1rem 0 2rem 0 !important;
+      gap: 1rem !important;
     }
   }
   .content--wide {
