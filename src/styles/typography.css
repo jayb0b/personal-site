@@ -46,6 +46,7 @@ h6 {
     content: "\2B24";
     position: absolute;
     right: calc(-2rem - 10px);
+    top: 12px;
     color: var(--border-color);
     font-size: 16px;
   }
@@ -59,7 +60,7 @@ h6 {
 @media screen and (max-width: 768px) {
   .bulletted {
     &::after {
-      display: none;
+      left: -10px;
     }
   }
 }

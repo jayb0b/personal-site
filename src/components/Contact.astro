@@ -2,25 +2,30 @@
 import { Icon } from "astro-icon/components";
 ---
 
-<section class="content">
-  <div>
-    <h2 class="content__header bulletted">Contact</h2>
+<section class="page-section">
+  <div class="page-section__left">
+    <h2 class="page-section__header bulletted">Contact</h2>
   </div>
-  <div>
+  <div class="page-section__right">
     <div>
       <div>
         <p>Stirling, United Kingdom</p>
         <p>john@notzen.com</p>
         <p>+44 7972164694</p>
-        <div class="flex-row flex-row--no-gap">
-          <a href="https://github.com/jayb0b/" target="blank">
-            <Icon name="mdi:github" />
+        <div class="contact-icons">
+          <a
+            class="contact-icons__icon"
+            href="https://github.com/jayb0b/"
+            target="blank"
+          >
+            <img src="github.svg" alt="github" width="48" height="48" />
           </a>
           <a
+            class="contact-icons__icon"
             href="https://www.linkedin.com/in/john-smith-bb719433/"
             target="blank"
           >
-            <Icon name="mdi:linkedin" />
+            <img src="linkedin.svg" alt="github" width="48" height="48" />
           </a>
         </div>
       </div>

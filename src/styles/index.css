@@ -1,6 +1,7 @@
 @import "./utils/reset.css";
 @import "variables.css";
 @import "typography.css";
+@import "hero.css";
 @import "layout.css";
 @import "buttons.css";
 @import "content.css";
@@ -8,10 +9,7 @@
 html {
   scroll-behavior: smooth;
 }
-[data-icon] {
-  font-size: 3rem;
-  color: #333;
-}
+
 .flex-row {
   display: flex;
   gap: 1rem;
@@ -21,4 +19,14 @@ html {
 }
 .flex-row--no-gap {
   gap: 0px;
+}
+
+.contact-icons {
+  height: 3rem;
+  display: flex;
+  .contact-icons__icon {
+    width: 3rem;
+    height: 100%;
+    line-height: 3rem;
+  }
 }
