@@ -34,7 +34,11 @@
   .hero {
     grid-template-columns: repeat(1fr);
     grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
-    height: 75vh;
+    height: unset;
+
+    > * {
+      height: unset;
+    }
   }
   .hero__line {
     height: 100%;

@@ -38,3 +38,8 @@ Full stack web developer with 20 years’ experience at ESI, a leading UK constr
 
 - Developed and maintained internal applications in the proprietary 4D database system.
 - Supported team in system troubleshooting and small-scale application development.
+
+### Qualifications
+
+- Film & Media, BA Hons - University of Stirling (1996-2000)
+- Information Technology, MA Distinction (2005-2006)
